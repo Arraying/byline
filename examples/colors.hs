@@ -31,4 +31,4 @@ example = do
 
 -- | Main.
 main :: IO ()
-main = runBylineT example >> pure ()
+main = Control.Monad.void (runBylineT example)
