@@ -18,6 +18,7 @@ module Main
 where
 
 import Byline
+import Control.Monad
 
 -- | Simple example.
 example :: MonadByline m => m ()
